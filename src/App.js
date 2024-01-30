@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery.jsx";
 import "./App.css";
-
 import Navbar from "./scenes/Navbar.jsx";
 import DotGroup from "./scenes/DotGroup.jsx";
 import Landing from "./scenes/Landing.jsx";
@@ -20,7 +19,7 @@ function App() {
       if (window.scrollY !== 0) setIsTopOfPage(false);
     };
     window.addEventListener("scroll", handleScroll);
-    return window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (

@@ -26,9 +26,8 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
-            suscipit adipisci ipsum voluptas labore nisi odit, expedita fugit
-            ratione illo!
+            "Expertise in web development, proficiency in JavaScript, React, and
+            Node.js, with a focus on responsive design and user experience."
           </p>
         </motion.div>
 
